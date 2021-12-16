@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    
+}
+
+body{
+    background-color: blue;
+    min-width: 100vw;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 1s;
+    
+}
+
+select{
+    background-color: #fff;
+    border: none;
+    border-radius: 2px;
+    border-right: 10px solid #fff;
+
+    width: 250px;
+    height: 30px;
+    
+    color: rgba(37, 37, 37, 0.63);
+    font-family: poppins;
+    font-weight: bold;
+
+    padding: 0 10px;
+    cursor: pointer;
+
+    z-index: 150;
+}
+
+select  > option{
+    color: rgba(37, 37, 37, 0.63);
+    font-family: poppins;
+    font-weight: bold;
+
+       
+}
+
+.container{
+    position: absolute;
+    width:  100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.container nav{
+    width: 70%;
+    height: 10%;
+
+    display: flex;
+    align-items: center;
+    
+}
+
+.container nav h1{
+    color: rgb(255, 255, 255);
+    font-family: poppins;
+    
+}
+
+.container main{
+    width: 100%;
+    height: 45%;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+.container main button{
+    width: 70%;
+    height: 20%;
+
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.63);
+    border-radius: 5px;
+    
+    color: #fff;
+    font-family: poppins;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 20px;
+}
+
+.container main button span{
+    display: flex;
+    align-items: center;
+}
+
+.container main div{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+
+.container main div h1{
+    color: rgba(255, 255, 255, 0.26);
+    font-family: poppins;
+    font-size: 20em;
+    font-weight: bold;
+
+}
+
+.container footer{
+    width: 70%;
+    height: 10%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container section{
+    position: relative;
+}
+
+.container footer section input{
+    width: 100px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.63);
+    border-radius: 5px;
+    padding: 5px 20px;
+
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+    cursor: copy;
+}
+
+
+
+.container footer section button{
+    visibility: hidden;
+
+    background-color: #fff;
+    border: none;
+    border-radius: 2px;
+    padding: 2px 5px;
+    margin-left: 10px;
+
+    color: rgba(37, 37, 37, 0.774);
+    font-family: poppins;
+    font-size: 10px;
+    font-weight: bold;
+
+
+}
+
+.container footer span {
+    font-family: poppins;
+    font-size: 12px;
+    color: #fff;
+
+}
+
+.container footer a{
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    
+
+}
+
+a:active{
+    color: #fff;
+}
